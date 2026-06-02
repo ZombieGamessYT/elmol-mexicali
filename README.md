@@ -10,8 +10,8 @@
 - **Tipo**: Tienda en línea (E-commerce)
 - **Ubicación**: Mexicali, Baja California, México
 - **Contacto**: m.me/elmoldemexicali
-- **Teléfono**: (686) 200-1234
-- **Sitio Web**: https://elmol-mexicali.vercel.app
+- **Teléfono**: (686) 264-3353
+- **Sitio Web**: elmol-mx-store.vercel.app
 
 ---
 
@@ -94,12 +94,13 @@ Este proyecto incluye documentación legal completa:
 
 ---
 
-## 👨‍💼 Propietario
+## 👨‍💼 Propietario y Copropietario
 
-**Humberto Zabalsa (ZombieGamessYT)**
+**Humberto Zabalsa**
+**Hector Vargas**
 - Ubicación: Mexicali, Baja California
 - Redes: @humbertozobalsa
-- Email: (contacto@elmoldemexicali.com)
+- Email: (nexoralabs.mx@gmail.com)
 
 ---
 
@@ -121,8 +122,8 @@ Este proyecto incluye documentación legal completa:
 ¿Preguntas? Contacta por:
 
 - 💬 **Messenger**: m.me/elmoldemexicali
-- 📱 **WhatsApp/Teléfono**: (686) 200-1234
-- 📧 **Email**: contacto@elmoldemexicali.com
+- 📱 **WhatsApp/Teléfono**: (686) 264-3353
+- 📧 **Email**: nexoralabs.mx@gmail.com
 - 📍 **Ubicación**: Mexicali, B.C.
 
 ---
@@ -130,7 +131,7 @@ Este proyecto incluye documentación legal completa:
 ## ⚖️ Información Legal
 
 Este sitio está protegido por:
-- Derechos de autor © 2026 Humberto Zabalsa
+- Derechos de autor © 2026 Humberto Zabalsa y Hector Vargas
 - Licencia personalizada (ver LICENSE)
 - Términos y Condiciones (ver TERMS.md)
 - Política de Privacidad (ver PRIVACY.md)
@@ -145,7 +146,7 @@ Traer moda internacional de calidad a precios accesibles en Mexicali, sin interm
 
 ---
 
-**Última actualización**: Junio 2026  
+**Última actualización**: 1 / Junio / 2026  
 **Versión**: 1.0  
 **Estado**: Activo ✅
 
