@@ -1,0 +1,148 @@
+╔══════════════════════════════════════════════════════════════╗
+║        GUÍA: CÓMO PUBLICAR TU SITIO EN VERCEL               ║
+║                    (SIN TERMINAL)                           ║
+╚══════════════════════════════════════════════════════════════╝
+
+TU SITIO: Elmol de Mexicali
+TIEMPO: 5-10 minutos
+COSTO: Gratis 100%
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PASO 1: CREA CUENTA EN GITHUB (Gratis)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Ve a: www.github.com
+2. Haz clic en "Sign up" (arriba a la derecha)
+3. Escribe tu correo
+4. Crea una contraseña
+5. Elige nombre de usuario (ej: humbertozobalsa)
+6. Confirma tu email (revisa tu correo)
+
+✓ ¡Ya tienes cuenta en GitHub!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PASO 2: SUBE LOS ARCHIVOS A GITHUB
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Entra en GitHub con tu cuenta
+2. Busca el botón "New" (verde, a la izquierda)
+3. Dale nombre: "elmol-mexicali"
+4. Haz clic en "Create repository"
+5. En la página nueva, busca "uploading an existing file"
+6. Abre la carpeta "elmol-mexicali"
+7. SELECCIONA TODOS LOS ARCHIVOS:
+   - index.html
+   - catalogo.html
+   - nosotros.html
+   - novedades.html
+   - ubicacion.html
+   - _shared.css
+   - vercel.json
+8. Arrastra los archivos a GitHub (o haz clic en "choose your files")
+9. Haz clic en "Commit changes" (botón verde)
+
+✓ Tus archivos están en GitHub
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PASO 3: CREA CUENTA EN VERCEL (Gratis)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Ve a: www.vercel.com
+2. Haz clic en "Sign Up" (arriba a la derecha)
+3. Selecciona "Continue with GitHub"
+4. Autoriza Vercel para acceder a GitHub
+
+✓ ¡Ya tienes cuenta en Vercel!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PASO 4: PUBLICA TU SITIO EN VERCEL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. En Vercel, busca el botón "New Project"
+2. Verás tu repositorio "elmol-mexicali" en la lista
+3. Haz clic en él
+4. Haz clic en "Import"
+5. Deixa todo por defecto
+6. Haz clic en "Deploy"
+7. Espera 30-60 segundos...
+
+✓ ¡TU SITIO ESTÁ PUBLICADO!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TU ENLACE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Vercel te dará un enlace como:
+
+   📌 elmol-mexicali.vercel.app
+
+COPIA ESTE ENLACE y comparte en:
+✓ Facebook (página + Messenger)
+✓ Instagram
+✓ TikTok
+✓ WhatsApp
+✓ Cualquier red
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+¿QUIERO CAMBIAR ALGO?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Sin terminal. Super fácil:
+
+1. Ve a: github.com
+2. Abre tu repositorio "elmol-mexicali"
+3. Haz clic en el archivo que quieras editar
+4. Haz clic en el lápiz ✏️ (Edit)
+5. Haz tus cambios
+6. Haz clic en "Commit changes"
+7. ¡En 30 segundos tu sitio se actualiza!
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PREGUNTAS FRECUENTES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+¿Cuánto cuesta?
+→ Gratis. GitHub y Vercel no cobran.
+
+¿Puedo tener otro dominio?
+→ Claro. Compra un dominio (~$10/año) y conecta a Vercel en 5 min.
+
+¿Qué pasa si algo falla?
+→ Vercel te muestra un error claro. 99% de veces es por archivos mal.
+
+¿Necesito saber código?
+→ No. Todo se hace con clics.
+
+¿Mi sitio será rápido?
+→ Muy rápido. Vercel optimiza todo automáticamente.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REDES SOCIALES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Facebook: Elmol de Mexicali
+Instagram: @humbertozobalsa
+TikTok: @humbertozobalsa
+Messenger: m.me/elmoldemexicali
+
+(Todos estos links están en tu sitio)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+¿NECESITAS AYUDA?
+
+Si algo no sale bien:
+1. Revisa que hayas subido TODOS los 7 archivos
+2. Lee el error en Vercel (es muy claro)
+3. Contacta a quien te ayudó
+
+¡LISTO! Tu sitio estará en: elmol-mexicali.vercel.app 🚀

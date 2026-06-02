@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elmol de Mexicali — Ropa de Moda</title>
+<link rel="stylesheet" href="_shared.css">
+<style>
+body { padding-top:56px; }
+.announce { position:fixed; top:56px; left:0; right:0; z-index:99; }
+.page-wrap { margin-top:30px; }
+.hero { display:grid; grid-template-columns:1fr 1fr; min-height:calc(100vh - 86px); }
+.hero-l { background:var(--k); display:flex; flex-direction:column; justify-content:flex-end; padding:3.5rem 5%; }
+.hero h1 { font-family:Barlow Condensed,sans-serif; font-weight:900; font-size:clamp(4.5rem,8.5vw,9.5rem); line-height:.88; color:#fff; margin:1.4rem 0; }
+.hero h1 i { font-style:italic; color:var(--b); }
+.hero-sub { font-size:.9rem; line-height:1.8; color:rgba(255,255,255,.42); max-width:340px; margin-bottom:2rem; font-weight:300; }
+.hero-ctas { display:flex; gap:.7rem; flex-wrap:wrap; }
+.hero-r { position:relative; overflow:hidden; background:#111; }
+.hero-r img { width:100%; height:100%; opacity:.75; }
+.story { display:grid; grid-template-columns:1fr 1fr; border:1.5px solid var(--k); }
+.story-img { overflow:hidden; min-height:360px; }
+.story-img img { height:100%; filter:grayscale(15%); }
+.story-text { background:var(--k); color:#fff; display:flex; flex-direction:column; justify-content:center; padding:4rem 5%; }
+.story-text h2 { font-family:Barlow Condensed,sans-serif; font-weight:900; font-size:clamp(2.5rem,4vw,4rem); color:#fff; margin-bottom:1.2rem; }
+.story-text p { font-size:.9rem; line-height:1.8; color:rgba(255,255,255,.45); max-width:380px; margin-bottom:.9rem; font-weight:300; }
+.section { padding:4.5rem 5%; }
+.section h2 { font-family:Barlow Condensed,sans-serif; font-weight:900; font-size:clamp(2.2rem,4vw,3.5rem); margin-bottom:2rem; }
+.reviews { background:var(--k); color:#fff; }
+.reviews h2 { color:#fff; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hd-logo">
+    <a href="index.html">
+      <span class="logo-main">El<span>mol</span></span>
+      <span class="logo-sub">de Mexicali</span>
+    </a>
+  </div>
+  <nav>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="novedades.html">Novedades</a>
+    <a href="ubicacion.html">Ubicación</a>
+  </nav>
+  <div class="hd-right">
+    <a href="https://m.me/elmoldemexicali" class="hd-msg" target="_blank">💬 Messenger</a>
+    <a href="catalogo.html" class="hd-cta">Ver catálogo</a>
+  </div>
+</header>
+
+<div class="announce">
+  <div class="announce-inner">
+    <span>🔥 Nuevo drop</span><span>·</span>
+    <span>Envíos mismo día</span><span>·</span>
+    <span>Mejores precios</span><span>·</span>
+    <span>🔥 Nuevo drop</span><span>·</span>
+    <span>Envíos mismo día</span><span>·</span>
+    <span>Mejores precios</span>
+  </div>
+</div>
+
+<div class="page-wrap">
+
+<section class="hero">
+  <div class="hero-l">
+    <span class="label">Nueva temporada</span>
+    <h1>Moda que te<br><i>define</i></h1>
+    <p class="hero-sub">Ropa de segunda selección y marcas top. Streetwear y estilo urbano.</p>
+    <div class="hero-ctas">
+      <a href="catalogo.html" class="btn btn-w">Ver catálogo →</a>
+      <a href="https://m.me/elmoldemexicali" class="btn btn-outline-w" target="_blank">Pedir</a>
+    </div>
+  </div>
+  <div class="hero-r">
+    <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900&q=85" alt="Elmol">
+  </div>
+</section>
+
+<div class="ticker">
+  <div class="ticker-inner">
+    <span class="ti">American Eagle</span>
+    <span class="ti">Aeropostale</span>
+    <span class="ti">Moda local</span>
+    <span class="ti">Precios directos</span>
+    <span class="ti">American Eagle</span>
+    <span class="ti">Aeropostale</span>
+    <span class="ti">Moda local</span>
+    <span class="ti">Precios directos</span>
+  </div>
+</div>
+
+<div class="section">
+  <div style="margin-bottom:2rem">
+    <span class="label">Destacados</span>
+    <h2>Lo más pedido</h2>
+  </div>
+  <div class="pgrid">
+    <div class="p-card">
+      <div class="p-img"><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80" alt=""><span class="p-badge bk">Más vendido</span></div>
+      <div class="p-body"><div class="p-name">Playera Oversized</div><div style="font-weight:700">$350 MXN</div></div>
+    </div>
+    <div class="p-card">
+      <div class="p-img"><img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80" alt=""><span class="p-badge bb">Nuevo</span></div>
+      <div class="p-body"><div class="p-name">Chamarra Unisex</div><div style="font-weight:700;color:#e82020">$750 MXN</div></div>
+    </div>
+    <div class="p-card">
+      <div class="p-img"><img src="https://images.unsplash.com/photo-1594938298603-c8148c4a0028?w=500&q=80" alt=""></div>
+      <div class="p-body"><div class="p-name">Shorts Cargo</div><div style="font-weight:700">$420 MXN</div></div>
+    </div>
+    <div class="p-card">
+      <div class="p-img"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80" alt=""></div>
+      <div class="p-body"><div class="p-name">Tenis Casual</div><div style="font-weight:700">$780 MXN</div></div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-top:2rem">
+    <a href="catalogo.html" class="btn btn-b">Ver todo →</a>
+  </div>
+</div>
+
+<div class="story">
+  <div class="story-img">
+    <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=900&q=80" alt="Elmol">
+  </div>
+  <div class="story-text">
+    <span class="label">Nuestra historia</span>
+    <h2>Moda fronteriza</h2>
+    <p>Nacimos en Mexicali con una idea: traer lo mejor a precios directos.</p>
+    <p>Más de 1,100 clientes confían en Elmol.</p>
+    <a href="nosotros.html" class="btn btn-w" style="margin-top:1.2rem;width:fit-content">Conocernos →</a>
+  </div>
+</div>
+
+<div class="reviews section">
+  <h2>Lo que dicen</h2>
+  <div class="testi-grid">
+    <div class="tcard">
+      <p class="t-text">"Llegó rapidísimo. Increíble calidad."</p>
+      <div class="t-person"><div class="t-av"><img src="https://i.pravatar.cc/80?img=47" alt=""></div><div><div class="t-name">Valeria M.</div></div></div>
+    </div>
+    <div class="tcard">
+      <p class="t-text">"Respondieron al instante. Muy profesionales."</p>
+      <div class="t-person"><div class="t-av"><img src="https://i.pravatar.cc/80?img=15" alt=""></div><div><div class="t-name">Diego R.</div></div></div>
+    </div>
+    <div class="tcard">
+      <p class="t-text">"Precios imbatibles. Mi tienda favorita."</p>
+      <div class="t-person"><div class="t-av"><img src="https://i.pravatar.cc/80?img=32" alt=""></div><div><div class="t-name">Karla T.</div></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="cta-strip">
+  <div><h2>¿Ready?</h2><p>Escríbenos por Messenger</p></div>
+  <div style="display:flex;gap:.7rem">
+    <a href="https://m.me/elmoldemexicali" class="btn btn-b" target="_blank">💬 Pedir</a>
+    <a href="https://www.facebook.com/elmoldemexicali" class="btn btn-outline-w" target="_blank">Facebook</a>
+  </div>
+</div>
+
+</div>
+
+<footer>
+  <div class="ft-top">
+    <div class="ft-brand">
+      <div style="font-family:Bebas Neue;font-size:2rem;color:#fff;margin-bottom:.6rem">Elmol</div>
+      <p>Ropa de moda en Mexicali, B.C.</p>
+      <div class="ft-socials">
+        <a href="https://www.facebook.com/elmoldemexicali" class="ft-soc" target="_blank">Facebook</a>
+        <a href="https://www.tiktok.com/@humbertozobalsa" class="ft-soc" target="_blank">TikTok</a>
+        <a href="https://www.instagram.com/humbertozobalsa" class="ft-soc" target="_blank">IG</a>
+      </div>
+    </div>
+    <div class="ft-col"><h5>Explorar</h5><ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="catalogo.html">Catálogo</a></li>
+      <li><a href="novedades.html">Novedades</a></li>
+    </ul></div>
+    <div class="ft-col"><h5>Info</h5><ul>
+      <li><a href="ubicacion.html">Ubicación</a></li>
+      <li><a href="https://m.me/elmoldemexicali" target="_blank">Messenger</a></li>
+      <li><a href="README.md" target="_blank">Acerca de</a></li>
+    </ul></div>
+    <div class="ft-col"><h5>Legal</h5><ul>
+      <li><a href="TERMS.md" target="_blank">Términos</a></li>
+      <li><a href="PRIVACY.md" target="_blank">Privacidad</a></li>
+      <li><a href="LICENSE" target="_blank">Licencia</a></li>
+    </ul></div>
+  </div>
+  <div style="padding-top:1.5rem;font-size:.68rem;color:rgba(255,255,255,.18)">
+    <p>© 2026 Elmol de Mexicali · Todos los derechos reservados</p>
+  </div>
+</footer>
+
+</body>
+</html>
