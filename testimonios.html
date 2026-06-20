@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonios — Elmol de Mexicali</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="/" class="logo">El<span>mol</span></a>
+    <button class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav">
+      <a href="catalogo.html">Productos</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="testimonios.html">Testimonios</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="https://m.me/elmoldemexicali" target="_blank" class="cta-btn">Comprar</a>
+    </nav>
+  </div>
+</header>
+
+<section>
+  <h2>Lo que dicen nuestros clientes</h2>
+  <div class="testimonials">
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p>"Llegó rapidísimo. La calidad es increíble para el precio. Ya van tres compras."</p>
+      <div class="testimonial-author">Valeria M. — Mexicali</div>
+    </div>
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p>"Me respondieron al instante. Al otro día ya tenía mi ropa. Muy profesionales."</p>
+      <div class="testimonial-author">Diego R. — Mexicali</div>
+    </div>
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p>"Precios imbatibles y trato directo. Mi tienda favorita para renovar el clóset."</p>
+      <div class="testimonial-author">Karla T. — Mexicali</div>
+    </div>
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p>"Excelente servicio. Las prendas llegan en perfecto estado. Recomendado 100%."</p>
+      <div class="testimonial-author">Jorge L. — Mexicali</div>
+    </div>
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p>"Mejor que esperar a las tiendas. Aquí encuentro marcas internacionales a buen precio."</p>
+      <div class="testimonial-author">Sandra P. — Mexicali</div>
+    </div>
+    <div class="testimonial">
+      <div class="stars">★★★★★</div>
+      <p>"Muy satisfecha. Volvería a comprar sin duda. ¡Gracias Elmol!"</p>
+      <div class="testimonial-author">Daniela G. — Mexicali</div>
+    </div>
+  </div>
+  <div style="text-align:center; margin-top:3rem">
+    <a href="/" class="btn btn-dark">← Volver</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col"><h4>Elmol</h4><p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">Ropa de moda en Mexicali, B.C.</p></div>
+    <div class="footer-col"><h4>Contacto</h4><ul><li><a href="https://m.me/elmoldemexicali">Messenger</a></li><li><a href="https://www.facebook.com/elmoldemexicali">Facebook</a></li></ul></div>
+    <div class="footer-col"><h4>Info</h4><ul><li><a href="tel:+526862001234">(686) 200-1234</a></li><li><a href="#">Mexicali, B.C.</a></li></ul></div>
+    <div class="footer-col"><h4>Legal</h4><ul><li><a href="#">Términos</a></li><li><a href="#">Privacidad</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>© 2026 Elmol de Mexicali</p></div>
+</footer>
+
+<script>
+const navToggle = document.getElementById('navToggle');
+const nav = document.getElementById('nav');
+navToggle.addEventListener('click', () => {
+  navToggle.classList.toggle('active');
+  nav.classList.toggle('active');
+});
+nav.querySelectorAll('a:not(.cta-btn)').forEach(link => {
+  link.addEventListener('click', () => {
+    navToggle.classList.remove('active');
+    nav.classList.remove('active');
+  });
+});
+</script>
+</body>
+</html>
