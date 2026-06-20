@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — Elmol de Mexicali</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="/" class="logo">El<span>mol</span></a>
+    <button class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav">
+      <a href="catalogo.html">Productos</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="testimonios.html">Testimonios</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="https://m.me/elmoldemexicali" target="_blank" class="cta-btn">Comprar</a>
+    </nav>
+  </div>
+</header>
+
+<section>
+  <h2>Contacto</h2>
+  <div class="about" style="text-align: center;">
+    <div style="max-width: 600px; margin: 0 auto;">
+      <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem;">¿Preguntas? Escríbenos</h3>
+      <p style="font-size: 1.1rem; color: #666; margin-bottom: 2rem;">Estamos disponibles para ayudarte con cualquier duda sobre nuestros productos.</p>
+      
+      <div style="background: #f9f9f9; padding: 2rem; border-radius: 6px; margin-bottom: 2rem;">
+        <h4 style="margin-bottom: 1rem;">Formas de contacto:</h4>
+        <p style="margin-bottom: 1rem;"><strong>📱 Messenger:</strong></p>
+        <a href="https://m.me/elmoldemexicali" target="_blank" class="btn btn-dark">Escribir por Messenger</a>
+        
+        <p style="margin-top: 1.5rem; margin-bottom: 1rem;"><strong>📞 Teléfono:</strong></p>
+        <a href="tel:+526862001234" class="btn btn-dark">(686) 200-1234</a>
+        
+        <p style="margin-top: 1.5rem; margin-bottom: 1rem;"><strong>📘 Facebook:</strong></p>
+        <a href="https://www.facebook.com/elmoldemexicali" target="_blank" class="btn btn-dark">Ir a Facebook</a>
+        
+        <p style="margin-top: 1.5rem; margin-bottom: 1rem;"><strong>📸 Instagram:</strong></p>
+        <a href="https://www.instagram.com/humbertozobalsa" target="_blank" class="btn btn-dark">Ir a Instagram</a>
+      </div>
+
+      <div style="background: #f0f4f8; padding: 2rem; border-radius: 6px;">
+        <h4 style="margin-bottom: 1rem;">Horario:</h4>
+        <p>Lunes a domingo, 10:00 - 20:00 (Hora de Mexicali)</p>
+      </div>
+    </div>
+  </div>
+  
+  <div style="text-align:center; margin-top:3rem">
+    <a href="/" class="btn btn-dark">← Volver</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col"><h4>Elmol</h4><p style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">Ropa de moda en Mexicali, B.C.</p></div>
+    <div class="footer-col"><h4>Contacto</h4><ul><li><a href="https://m.me/elmoldemexicali">Messenger</a></li><li><a href="https://www.facebook.com/elmoldemexicali">Facebook</a></li></ul></div>
+    <div class="footer-col"><h4>Info</h4><ul><li><a href="tel:+526862001234">(686) 200-1234</a></li><li><a href="#">Mexicali, B.C.</a></li></ul></div>
+    <div class="footer-col"><h4>Legal</h4><ul><li><a href="#">Términos</a></li><li><a href="#">Privacidad</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>© 2026 Elmol de Mexicali</p></div>
+</footer>
+
+<script>
+const navToggle = document.getElementById('navToggle');
+const nav = document.getElementById('nav');
+navToggle.addEventListener('click', () => {
+  navToggle.classList.toggle('active');
+  nav.classList.toggle('active');
+});
+nav.querySelectorAll('a:not(.cta-btn)').forEach(link => {
+  link.addEventListener('click', () => {
+    navToggle.classList.remove('active');
+    nav.classList.remove('active');
+  });
+});
+</script>
+</body>
+</html>
